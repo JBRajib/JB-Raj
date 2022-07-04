@@ -1,0 +1,82 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.color{
+    color: orange;
+}
+
+.flexibale-container{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img{
+    width: 70%;
+}
+
+.linkButton{
+    text-decoration: none;
+    background-image: linear-gradient( rgb(25, 0, 255) , rgba(252, 255, 71, 0.726));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.topbanner{
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+
+.middle{
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+p{
+    width: 550px;
+}
+
+.end-off{
+    color: orange;
+}
+
+.experiences-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 40px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid rgba(166, 206, 20, 0.911);
+}
+
+.ending{
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#baby{
+    border-left: 7px solid rgba(255, 0, 191, 0.918);
+}
+
+footer p{
+    text-align: center;
+}
